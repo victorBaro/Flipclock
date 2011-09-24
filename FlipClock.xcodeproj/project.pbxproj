@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4250A4E3142E600700C53EC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4250A4E2142E600700C53EC8 /* UIKit.framework */; };
+		4250A4E5142E600700C53EC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4250A4E4142E600700C53EC8 /* Foundation.framework */; };
+		4250A4E7142E600700C53EC8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4250A4E6142E600700C53EC8 /* CoreGraphics.framework */; };
+		4250A4ED142E600700C53EC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4250A4EB142E600700C53EC8 /* InfoPlist.strings */; };
+		4250A4EF142E600800C53EC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4250A4EE142E600800C53EC8 /* main.m */; };
+		4250A4F3142E600800C53EC8 /* FlipClockAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4250A4F2142E600800C53EC8 /* FlipClockAppDelegate.m */; };
+		4250A4F6142E600800C53EC8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4250A4F4142E600800C53EC8 /* MainWindow.xib */; };
+		4250A4F9142E600800C53EC8 /* FlipClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4250A4F8142E600800C53EC8 /* FlipClockViewController.m */; };
+		4250A4FC142E600800C53EC8 /* FlipClockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4250A4FA142E600800C53EC8 /* FlipClockViewController.xib */; };
+		4250A504142E600800C53EC8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4250A503142E600800C53EC8 /* SenTestingKit.framework */; };
+		4250A505142E600800C53EC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4250A4E2142E600700C53EC8 /* UIKit.framework */; };
+		4250A506142E600800C53EC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4250A4E4142E600700C53EC8 /* Foundation.framework */; };
+		4250A507142E600800C53EC8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4250A4E6142E600700C53EC8 /* CoreGraphics.framework */; };
+		4250A50F142E600800C53EC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4250A50D142E600800C53EC8 /* InfoPlist.strings */; };
+		4250A511142E600800C53EC8 /* FlipClockTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4250A510142E600800C53EC8 /* FlipClockTests.h */; };
+		4250A513142E600800C53EC8 /* FlipClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4250A512142E600800C53EC8 /* FlipClockTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4250A508142E600800C53EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4250A4D5142E600700C53EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4250A4DD142E600700C53EC8;
+			remoteInfo = FlipClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4250A4DE142E600700C53EC8 /* FlipClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4250A4E2142E600700C53EC8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4250A4E4142E600700C53EC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4250A4E6142E600700C53EC8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4250A4EA142E600700C53EC8 /* FlipClock-Info.plist */ = {isa = PBXFileReference; path = "FlipClock-Info.plist"; sourceTree = "<group>"; };
+		4250A4EC142E600700C53EC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4250A4EE142E600800C53EC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4250A4F0142E600800C53EC8 /* FlipClock-Prefix.pch */ = {isa = PBXFileReference; path = "FlipClock-Prefix.pch"; sourceTree = "<group>"; };
+		4250A4F1142E600800C53EC8 /* FlipClockAppDelegate.h */ = {isa = PBXFileReference; path = FlipClockAppDelegate.h; sourceTree = "<group>"; };
+		4250A4F2142E600800C53EC8 /* FlipClockAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipClockAppDelegate.m; sourceTree = "<group>"; };
+		4250A4F5142E600800C53EC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4250A4F7142E600800C53EC8 /* FlipClockViewController.h */ = {isa = PBXFileReference; path = FlipClockViewController.h; sourceTree = "<group>"; };
+		4250A4F8142E600800C53EC8 /* FlipClockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipClockViewController.m; sourceTree = "<group>"; };
+		4250A4FB142E600800C53EC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipClockViewController.xib; sourceTree = "<group>"; };
+		4250A502142E600800C53EC8 /* FlipClockTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipClockTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4250A503142E600800C53EC8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4250A50C142E600800C53EC8 /* FlipClockTests-Info.plist */ = {isa = PBXFileReference; path = "FlipClockTests-Info.plist"; sourceTree = "<group>"; };
+		4250A50E142E600800C53EC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4250A510142E600800C53EC8 /* FlipClockTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipClockTests.h; sourceTree = "<group>"; };
+		4250A512142E600800C53EC8 /* FlipClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipClockTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4250A4DB142E600700C53EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4250A4E3142E600700C53EC8 /* UIKit.framework in Frameworks */,
+				4250A4E5142E600700C53EC8 /* Foundation.framework in Frameworks */,
+				4250A4E7142E600700C53EC8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4250A4FE142E600800C53EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4250A504142E600800C53EC8 /* SenTestingKit.framework in Frameworks */,
+				4250A505142E600800C53EC8 /* UIKit.framework in Frameworks */,
+				4250A506142E600800C53EC8 /* Foundation.framework in Frameworks */,
+				4250A507142E600800C53EC8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4250A4D3142E600700C53EC8 = {
+			isa = PBXGroup;
+			children = (
+				4250A4E8142E600700C53EC8 /* FlipClock */,
+				4250A50A142E600800C53EC8 /* FlipClockTests */,
+				4250A4E1142E600700C53EC8 /* Frameworks */,
+				4250A4DF142E600700C53EC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4250A4DF142E600700C53EC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4250A4DE142E600700C53EC8 /* FlipClock.app */,
+				4250A502142E600800C53EC8 /* FlipClockTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4250A4E1142E600700C53EC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4250A4E2142E600700C53EC8 /* UIKit.framework */,
+				4250A4E4142E600700C53EC8 /* Foundation.framework */,
+				4250A4E6142E600700C53EC8 /* CoreGraphics.framework */,
+				4250A503142E600800C53EC8 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4250A4E8142E600700C53EC8 /* FlipClock */ = {
+			isa = PBXGroup;
+			children = (
+				4250A4F1142E600800C53EC8 /* FlipClockAppDelegate.h */,
+				4250A4F2142E600800C53EC8 /* FlipClockAppDelegate.m */,
+				4250A4F4142E600800C53EC8 /* MainWindow.xib */,
+				4250A4F7142E600800C53EC8 /* FlipClockViewController.h */,
+				4250A4F8142E600800C53EC8 /* FlipClockViewController.m */,
+				4250A4FA142E600800C53EC8 /* FlipClockViewController.xib */,
+				4250A4E9142E600700C53EC8 /* Supporting Files */,
+			);
+			path = FlipClock;
+			sourceTree = "<group>";
+		};
+		4250A4E9142E600700C53EC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4250A4EA142E600700C53EC8 /* FlipClock-Info.plist */,
+				4250A4EB142E600700C53EC8 /* InfoPlist.strings */,
+				4250A4EE142E600800C53EC8 /* main.m */,
+				4250A4F0142E600800C53EC8 /* FlipClock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4250A50A142E600800C53EC8 /* FlipClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				4250A510142E600800C53EC8 /* FlipClockTests.h */,
+				4250A512142E600800C53EC8 /* FlipClockTests.m */,
+				4250A50B142E600800C53EC8 /* Supporting Files */,
+			);
+			path = FlipClockTests;
+			sourceTree = "<group>";
+		};
+		4250A50B142E600800C53EC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4250A50C142E600800C53EC8 /* FlipClockTests-Info.plist */,
+				4250A50D142E600800C53EC8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4250A4DD142E600700C53EC8 /* FlipClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4250A516142E600800C53EC8 /* Build configuration list for PBXNativeTarget "FlipClock" */;
+			buildPhases = (
+				4250A4DA142E600700C53EC8 /* Sources */,
+				4250A4DB142E600700C53EC8 /* Frameworks */,
+				4250A4DC142E600700C53EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipClock;
+			productName = FlipClock;
+			productReference = 4250A4DE142E600700C53EC8 /* FlipClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4250A501142E600800C53EC8 /* FlipClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4250A519142E600800C53EC8 /* Build configuration list for PBXNativeTarget "FlipClockTests" */;
+			buildPhases = (
+				4250A4FD142E600800C53EC8 /* Sources */,
+				4250A4FE142E600800C53EC8 /* Frameworks */,
+				4250A4FF142E600800C53EC8 /* Resources */,
+				4250A500142E600800C53EC8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4250A509142E600800C53EC8 /* PBXTargetDependency */,
+			);
+			name = FlipClockTests;
+			productName = FlipClockTests;
+			productReference = 4250A502142E600800C53EC8 /* FlipClockTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4250A4D5142E600700C53EC8 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4250A4D8142E600700C53EC8 /* Build configuration list for PBXProject "FlipClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4250A4D3142E600700C53EC8;
+			productRefGroup = 4250A4DF142E600700C53EC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4250A4DD142E600700C53EC8 /* FlipClock */,
+				4250A501142E600800C53EC8 /* FlipClockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4250A4DC142E600700C53EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4250A4ED142E600700C53EC8 /* InfoPlist.strings in Resources */,
+				4250A4F6142E600800C53EC8 /* MainWindow.xib in Resources */,
+				4250A4FC142E600800C53EC8 /* FlipClockViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4250A4FF142E600800C53EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4250A50F142E600800C53EC8 /* InfoPlist.strings in Resources */,
+				4250A511142E600800C53EC8 /* FlipClockTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4250A500142E600800C53EC8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4250A4DA142E600700C53EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4250A4EF142E600800C53EC8 /* main.m in Sources */,
+				4250A4F3142E600800C53EC8 /* FlipClockAppDelegate.m in Sources */,
+				4250A4F9142E600800C53EC8 /* FlipClockViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4250A4FD142E600800C53EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4250A513142E600800C53EC8 /* FlipClockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4250A509142E600800C53EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4250A4DD142E600700C53EC8 /* FlipClock */;
+			targetProxy = 4250A508142E600800C53EC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4250A4EB142E600700C53EC8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4250A4EC142E600700C53EC8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4250A4F4142E600800C53EC8 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4250A4F5142E600800C53EC8 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4250A4FA142E600800C53EC8 /* FlipClockViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4250A4FB142E600800C53EC8 /* en */,
+			);
+			name = FlipClockViewController.xib;
+			sourceTree = "<group>";
+		};
+		4250A50D142E600800C53EC8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4250A50E142E600800C53EC8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4250A514142E600800C53EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4250A515142E600800C53EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4250A517142E600800C53EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipClock/FlipClock-Prefix.pch";
+				INFOPLIST_FILE = "FlipClock/FlipClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4250A518142E600800C53EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipClock/FlipClock-Prefix.pch";
+				INFOPLIST_FILE = "FlipClock/FlipClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4250A51A142E600800C53EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlipClock.app/FlipClock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipClock/FlipClock-Prefix.pch";
+				INFOPLIST_FILE = "FlipClockTests/FlipClockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4250A51B142E600800C53EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlipClock.app/FlipClock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipClock/FlipClock-Prefix.pch";
+				INFOPLIST_FILE = "FlipClockTests/FlipClockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4250A4D8142E600700C53EC8 /* Build configuration list for PBXProject "FlipClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4250A514142E600800C53EC8 /* Debug */,
+				4250A515142E600800C53EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4250A516142E600800C53EC8 /* Build configuration list for PBXNativeTarget "FlipClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4250A517142E600800C53EC8 /* Debug */,
+				4250A518142E600800C53EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4250A519142E600800C53EC8 /* Build configuration list for PBXNativeTarget "FlipClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4250A51A142E600800C53EC8 /* Debug */,
+				4250A51B142E600800C53EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4250A4D5142E600700C53EC8 /* Project object */;
+}
